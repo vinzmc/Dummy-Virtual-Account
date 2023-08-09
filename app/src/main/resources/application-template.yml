@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/DummyVa
+    username: postgres
+    password: postgres
+  webflux:
+    base-path: /api/v1
+server:
+  servlet:
+    context-path: /api/v1
