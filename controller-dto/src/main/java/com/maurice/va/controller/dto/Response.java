@@ -8,4 +8,8 @@ import lombok.Getter;
 public class Response<T> {
   private T data;
   private String message;
+
+  public Response(T data){
+    this.data = data;
+  }
 }
