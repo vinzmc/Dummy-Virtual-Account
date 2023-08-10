@@ -25,6 +25,7 @@
         <module>repository</module>
         <module>util</module>
         <module>model</module>
+        <module>validation</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>Virtual Account</name>
@@ -93,6 +94,11 @@
             <dependency>
                 <groupId>com.maurice.va</groupId>
                 <artifactId>util</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.maurice.va</groupId>
+                <artifactId>validation</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.maurice.va</groupId>
-    <artifactId>command-impl</artifactId>
+    <artifactId>validation</artifactId>
 
     <properties>
     </properties>
@@ -18,16 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>com.maurice.va</groupId>
-            <artifactId>command</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.maurice.va</groupId>
             <artifactId>repository</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.maurice.va</groupId>
-            <artifactId>util</artifactId>
-        </dependency>
     </dependencies>
-
 </project>

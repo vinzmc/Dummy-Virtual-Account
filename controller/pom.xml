@@ -32,5 +32,9 @@
             <groupId>com.maurice.va</groupId>
             <artifactId>command</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>validation</artifactId>
+        </dependency>
     </dependencies>
 </project>
