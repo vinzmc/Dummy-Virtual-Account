@@ -20,5 +20,21 @@
             <groupId>com.maurice.va</groupId>
             <artifactId>controller-dto</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>command-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>command-dto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>command</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>validation</artifactId>
+        </dependency>
     </dependencies>
 </project>

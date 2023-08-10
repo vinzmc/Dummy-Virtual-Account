@@ -9,10 +9,17 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
+    <groupId>com.maurice.va</groupId>
     <artifactId>repository</artifactId>
 
     <properties>
-
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>entity</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -5,6 +5,13 @@ spring:
     password: postgres
   webflux:
     base-path: /api/v1
+  security:
+    user:
+      name: 55484a1088e5d23225dba2450f359b11059f1279d6274a3770541e0f2b94343c
+      password: e0d21b4ac4d9eadf24fda1d2783e9980addd96ff5cd938cee9e23b8d684cccf2
+  jackson:
+    default-property-inclusion: non_null
+
 server:
   servlet:
     context-path: /api/v1

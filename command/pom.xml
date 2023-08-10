@@ -13,9 +13,17 @@
     <artifactId>command</artifactId>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>command-dto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.maurice.va</groupId>
+            <artifactId>controller-dto</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
