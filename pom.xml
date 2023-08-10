@@ -25,7 +25,6 @@
         <module>repository</module>
         <module>util</module>
         <module>model</module>
-        <module>util</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>Virtual Account</name>
@@ -168,11 +167,9 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
-            <version>6.1.2</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
     </dependencies>
