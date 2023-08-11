@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
    ```git clone https://github.com/your-username/dummy-virtual-account-services.git```
 
 2. Navigate to the project directory:
-   ```cd dummy-virtual-account-services```
+   ```cd dummy-virtual-account```
 
 3. Build the project using Maven:
    ```mvn clean install```
@@ -34,11 +34,11 @@ Before you begin, ensure you have met the following requirements:
 4. Run the application:
    ```mvn spring-boot:run```
 
-5. Access the application at: `http://localhost:8080`
+5. Access the swagger/docs at: `http://localhost:8080/api/v1/webjars/swagger-ui/index.html#`
 
 ## Data Migration (Separate Project)
 
-If your project requires data migration, you may need to use a separate project/repository specifically for data migration. Follow these steps:
+For data migration. Follow these steps:
 
 1. Clone the data migration repository:
 ```git clone https://github.com/vinzmc/Dummy-Virtual-Account-DM.git```
