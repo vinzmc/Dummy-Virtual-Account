@@ -4,7 +4,7 @@ Welcome to the Dummy Virtual Account Services project! This is a simple self-imp
 
 ## Project Overview
 
-The Dummy Virtual Account Services project aims to provide a basic implementation of virtual account management using modern reactive programming techniques. Leveraging Spring Boot 3 and WebFlux, this project offers a reactive and non-blocking architecture for handling virtual account operations.
+The Dummy Virtual Account Services project aims to provide a basic implementation of virtual account services using reactive programming. Leveraging Spring Boot 3 and WebFlux, this project offers a reactive and non-blocking architecture for handling virtual account operations.
 
 ## Features
 
