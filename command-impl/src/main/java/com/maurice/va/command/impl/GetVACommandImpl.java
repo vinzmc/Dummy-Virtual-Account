@@ -23,6 +23,7 @@ public class GetVACommandImpl implements GetVACommand {
             .virtualAccountNumber(va.getVANumber())
             .description(va.getDescription())
             .accountName(va.getName())
+            .status(va.getStatus().getDescription())
             .expiredDate(DateTimeUtils.epochToDateConverter(va.getExpiredDate()))
             .build());
   }

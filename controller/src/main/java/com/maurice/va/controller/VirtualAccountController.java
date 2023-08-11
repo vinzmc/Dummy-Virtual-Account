@@ -5,11 +5,12 @@ import com.maurice.va.command.GetVACommand;
 import com.maurice.va.command.dto.EmptyCommandRequest;
 import com.maurice.va.controller.dto.Response;
 import com.maurice.va.controller.dto.response.VAWebResponse;
-import com.maurice.va.validation.annotation.VAMustExists;
+import com.maurice.va.validation.annotation.VAMustValid;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
@@ -24,7 +25,7 @@ public class VirtualAccountController extends BaseController{
   }
 
   @GetMapping("/va/{vaNumber}")
-  public Mono<ResponseEntity<Response<VAWebResponse>>> getVAByNumber(@PathVariable @Valid @VAMustExists String vaNumber) {
+  public Mono<ResponseEntity<Response<VAWebResponse>>> getVAByNumber(@PathVariable @Valid @VAMustValid String vaNumber) {
 
     return commandInvoker.execute(GetVACommand.class, vaNumber)
         .map(Response::new)

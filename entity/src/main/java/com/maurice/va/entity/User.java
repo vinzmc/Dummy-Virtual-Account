@@ -10,23 +10,23 @@ import java.util.UUID;
 
 public class User {
   @Id
-  UUID id;
+  private  UUID id;
 
   @NotBlank
-  String name;
+  private String name;
 
   @NotBlank
-  String email;
+  private String email;
 
   @NotBlank
-  String password;
+  private String password;
 
   @NotBlank
-  String salt;
+  private String salt;
 
   @NotNull
-  UserRoles role;
+  private UserRoles role;
 
   @NotNull
-  BigDecimal balance;
+  private BigDecimal balance;
 }

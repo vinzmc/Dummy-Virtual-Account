@@ -1,5 +1,5 @@
 package com.maurice.va.model.constant;
 
-public enum UserRoles {
+public enum UserRoles{
   ADMIN, USER, ANONYMOUS
 }

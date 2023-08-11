@@ -1,15 +1,15 @@
 package com.maurice.va.validation.validator;
 
 import com.maurice.va.repository.VirtualAccountRepository;
-import com.maurice.va.validation.annotation.VAMustExists;
+import com.maurice.va.validation.annotation.VAMustValid;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class VAMustExistsValidator implements ConstraintValidator<VAMustExists, String> {
+public class VAMustExistsValidator implements ConstraintValidator<VAMustValid, String> {
 
   @Autowired
-  VirtualAccountRepository repository;
+  private VirtualAccountRepository repository;
 
   @Override
   public boolean isValid(String vaNumber, ConstraintValidatorContext constraintValidatorContext) {

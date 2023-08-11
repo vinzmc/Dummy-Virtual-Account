@@ -1,5 +1,6 @@
 package com.maurice.va.entity;
 
+import com.maurice.va.model.constant.VAStatus;
 import com.maurice.va.model.constant.VAType;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
@@ -11,19 +12,21 @@ import java.util.UUID;
 @Getter
 public class VirtualAccount {
   @Id
-  UUID id;
+  private UUID id;
 
   @NotBlank
-  String VANumber;
+  private String VANumber;
 
   @NotBlank
-  String name;
+  private String name;
 
-  BigDecimal requiredPayment;
+  private BigDecimal requiredPayment;
 
-  Long expiredDate;
+  private Long expiredDate;
 
-  String description;
+  private String description;
 
-  VAType type;
+  private VAType type;
+
+  private VAStatus status;
 }

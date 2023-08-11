@@ -12,8 +12,9 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VAWebResponse {
-  String virtualAccountNumber;
-  String description;
-  String accountName;
-  Date expiredDate;
+  private String virtualAccountNumber;
+  private String description;
+  private String accountName;
+  private String status;
+  private Date expiredDate;
 }
